@@ -1,0 +1,71 @@
+{
+    "questions": [
+        {
+            "category": "Behavioral",
+            "question": [
+                "Tell me about yourself",
+        
+                "What are your strengths?",
+            
+                "What are your weaknesses?",
+            
+                "Why are you interested in working here? For a startup? In technology?",
+            
+                "Tell me about a time you solved a difficult problem",
+            
+                "Tell me about a time you worked in a team and the challenges you faced and how you solved them",
+            
+                "Tell me about an accomplishment you are proud of",
+            
+                "Tell me about a project you recently worked on",
+            
+                "Tell me about something you recently learned",
+            
+                "Tell me how you got into this field and why you liked it",
+            
+                "What are your career goals for the next 3-5 years?",
+            
+                "Do you have any questions for me?"
+            ]
+        },
+        {
+            "category":"technical",
+            "question":[
+                "What is a file?",
+                "What is a class?",
+                "What is an object?",
+                "What is a constructor?",
+                "What is the different OOPS principle?",
+                "What is inheritance?",
+                "What is polymorphism?",
+                "What are the instance and class variables?",
+                "Compare method and constructor?",
+                "What is a singleton class?",
+                "What are the steps for creating the object?"
+
+
+                
+            ],
+            "answer":[
+                "A file is a named location which stores data or information permanently. A file is always stored inside a storage device using file name (e.g. STUDENT.MARKS). A file name normally has primary and secondary name separated by a “.”(DOT).",
+                "A class is a blueprint from which objects are created. A class contains methods and variables associated with an instance of a class.",
+                "An object is an instance of a class.",
+                "A constructor is methods which are used to create an Object of class. There are two types of constructor Default & Parameterized constructor.",
+                "The basic OOPS principle are as follows, -Encapsulation -Abstraction -Inheritance -Polymorphism",
+                "Inheritance is property in which the property of a parent class(Superclass) is passed on to child class(Subclass)",
+                "Polymorphism is the ability of an object to take on multiple forms. Most commonly polymorphism is used in OOP when a parent class reference is used to refer to a child class object.",
+                "Instance variable belongs to a particular instance of that class whereas Class variable. A class variable is also known as static variables",
+                "Constructor: Used to initialize the instance of a class. Method: Used to perform some function or operation. Constructor: Doesn’t have a return type. Method: Has a return type",
+                "Singleton class limits the number of objects created for a class to one but gives the flexibility of creating more objects if the situation changes.",
+                "An object is first declared then instantiated and at last declared."
+
+
+
+
+
+
+            ]
+        }
+
+]
+}
