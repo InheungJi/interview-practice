@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css" type="text/css">
     <title>Interview-Practice</title>
 </head>
+
 <body>
-    <form action="./main.html" method="get">
-        
-    </form>
+    <header>
+        <nav>
+            <!-- <img src="" alt="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="practice.html">Interview-Practice</a></li>
+                <li><a href="result.html">Result</a></li>
+            </ul> -->
+        </nav>
+    </header>
+
+    <main>
+        <h1>Let's Interview Practice!!</h1>
+        <div class="form">
+            <form action="./practice.html" method="GET">
+                <h2>Category</h2>
+                <input type="radio" id="behavioral" name="category" value="behavioral">
+                <label for="behavieral">Behavioral</label>
+                <input type="radio" id="technical" name="category" value="technical">
+                <label for="technical">Technical</label>
+                <div id="submitBtn">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
+
 </html>
