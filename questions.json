@@ -3,7 +3,7 @@
         {
             "category": "Behavioral",
             "question": [
-                "Tell me about yourself",
+                "Tell me about yourself.",
         
                 "What are your strengths?",
             
@@ -11,17 +11,17 @@
             
                 "Why are you interested in working here? For a startup? In technology?",
             
-                "Tell me about a time you solved a difficult problem",
+                "Tell me about a time you solved a difficult problem.",
             
-                "Tell me about a time you worked in a team and the challenges you faced and how you solved them",
+                "Tell me about a time you worked in a team and the challenges you faced and how you solved them.",
             
-                "Tell me about an accomplishment you are proud of",
+                "Tell me about an accomplishment you are proud of.",
             
-                "Tell me about a project you recently worked on",
+                "Tell me about a project you recently worked on.",
             
-                "Tell me about something you recently learned",
+                "Tell me about something you recently learned.",
             
-                "Tell me how you got into this field and why you liked it",
+                "Tell me how you got into this field and why you liked it.",
             
                 "What are your career goals for the next 3-5 years?",
             
@@ -51,7 +51,11 @@
 
                 "What is a singleton class?",
 
-                "What are the steps for creating the object?"
+                "What are the steps for creating the object?",
+
+                "what is API?",
+
+                "What is RESTful API?"
 
 
                 

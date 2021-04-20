@@ -40,6 +40,13 @@ function resetTime() {
   displayTime(time);
 }
 
+timer.addEventListener("click", () => {
+  clearInterval(handleTimer);
+  resetTime();
+  handleTimer = setInterval(() => {
+    startTimer();
+  }, 1000);
+});
 //-----------------------------questions part----------------------------------
 
 async function getQuestions(selectedCategory) {
@@ -69,22 +76,14 @@ async function displayQuestions() {
   }, 1000);
 }
 
-timer.addEventListener("click", () => {
-  clearInterval(handleTimer);
-  resetTime();
-  handleTimer = setInterval(() => {
-    startTimer();
-  }, 1000);
+nextQuestion.addEventListener("click", () => {
+  displayInit();
 });
 
 function displayInit() {
   resetTime();
   displayQuestions();
 }
-
-nextQuestion.addEventListener("click", () => {
-  displayInit();
-});
 
 displayInit();
 
@@ -93,11 +92,11 @@ displayInit();
 //video setting
 const constraints = {
   audio: {
-    echoCancellation: false,
+    echoCancellation: true,
   },
   video: {
-    width: 1280,
-    height: 720,
+    width: 900,
+    height: 560,
   },
 };
 
@@ -191,4 +190,6 @@ downloadButton.addEventListener("click", () => {
     document.body.removeChild(a);
     window.URL.revokeObjectURL(url);
   }, 100);
+  playButton.disabled = true;
+  downloadButton.disabled = true;
 });
